@@ -1,5 +1,7 @@
 /* Glabal Css */
 body{
+    width: 100%;
+    overflow-x: hidden;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
@@ -184,16 +186,6 @@ body{
 }
 
 
-/* next accessories */
-.brand-logo-1 {
-    width: 488px;
-    height: 100px;
-    margin: 60px 0;
-    padding: 0;
-    background: url(../img/next-acc-logo.png) no-repeat;
-}
-
-
 /* Subscriber */
 .subscribe-section {
     background: url(../img/bg-subscribe.png) no-repeat;
@@ -341,5 +333,12 @@ body{
     border-color: none !important;
 }
 
+.subsc_container input[type=email] {
+    width: 40%;
+}
+
+.blue_line{
+    width: 75%;
+}
 
 }/* media */
